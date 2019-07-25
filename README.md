@@ -1,27 +1,36 @@
-# FlycoRoundView
-A library helps Android built-in views easy and convenient to set round rectangle background and accordingly related shape resources can be reduced.
-一个扩展原生控件支持圆角矩形框背景的库,可以减少相关shape资源文件使用.
+# FlycoRoundView2
+An Android library aims to replace shape resource type and you need not to write a lot of shape xmls.Let you draw the View with round Cornors easily.
 
-## new features：
-- support ConstractLayout
+## FlycoRoundView2 New features：
+- support ConstrainttLayout
 ## Support View：
 - TextView
 - ConstraintLayout
 - FrameLayout
 - LinearLayout
 - RelativeLayout
-##Demo
+
+## Demo
 ![](https://github.com/H07000223/FlycoRoundView/blob/master/preview.gif)
 
-##Gradle
-
-```groovy
-dependencies{
-    implementation 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
-}
+# Download
+### Step 1. Add the JitPack repository in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+### Step 2. Add the dependency
+```
+dependencies {
+	        implementation 'com.github.BryceLee:FlycoRoundView:Tag'
+	}
 ```
 
-###Attributes
+### Attributes
 
 |name|format|description|
 |:---:|:---:|:---:|
