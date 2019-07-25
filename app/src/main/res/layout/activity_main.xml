@@ -13,6 +13,21 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+        <com.flyco.roundview.RoundConstraintLayout
+            android:layout_marginBottom="10dp"
+            rv:rv_backgroundColor="#FE11"
+            rv:rv_cornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                rv:layout_constraintTop_toTopOf="parent"
+                rv:layout_constraintBottom_toBottomOf="parent"
+                rv:layout_constraintLeft_toLeftOf="parent"
+                rv:layout_constraintRight_toRightOf="parent"
+                android:layout_width="wrap_content"
+                android:text="this is roundConstraintLayout"
+                android:layout_height="wrap_content" />
+        </com.flyco.roundview.RoundConstraintLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

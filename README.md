@@ -1,6 +1,15 @@
-#FlycoRoundView
+# FlycoRoundView
 A library helps Android built-in views easy and convenient to set round rectangle background and accordingly related shape resources can be reduced.
 一个扩展原生控件支持圆角矩形框背景的库,可以减少相关shape资源文件使用.
+
+## new features：
+- support ConstractLayout
+## Support View：
+- TextView
+- ConstraintLayout
+- FrameLayout
+- LinearLayout
+- RelativeLayout
 ##Demo
 ![](https://github.com/H07000223/FlycoRoundView/blob/master/preview.gif)
 
@@ -8,7 +17,7 @@ A library helps Android built-in views easy and convenient to set round rectangl
 
 ```groovy
 dependencies{
-    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
+    implementation 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
 }
 ```
 
