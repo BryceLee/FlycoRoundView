@@ -1,6 +1,6 @@
 # FlycoRoundView2
-An Android library aims to replace shape resource type and you need not to write a lot of shape xmls.Let you draw the View with round Cornors easily.
-
+An Android library aims to replace shape resource type and you need not to write a lot of shape xmls.Let you draw the View with round corners easily.
+## Thanks [FlycoRoundView](https://github.com/H07000223/FlycoRoundView)
 ## FlycoRoundView2 New features：
 - support ConstrainttLayout
 ## Support View：
